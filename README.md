@@ -29,13 +29,13 @@
 
 ## 🖼️ Output Preview
 
-
+```
 +---------------+-------------------+---------+
 | IP | MAC | Vendor |
 +---------------+-------------------+---------+
 | 192.168.0.1 | xx:xx:xx:xx:xx:xx | Unknown |
 +---------------+-------------------+---------+
-
+```
 
 ---
 
@@ -59,13 +59,13 @@ pip install scapy prettytable mac_vendor_lookup
 source myenv/bin/activate
 sudo /home/kali/myenv/bin/python3 netscanner.py --h 192.168.0.1/24
 ```
-🧠 Working Process
-📡 ARP Broadcast Packet পাঠানো হয়
-🌐 Network এর সব IP-তে Request যায়
-🟢 Active Device Response দেয়
-📊 Data collect করে Table আকারে দেখানো হয়
-⚠️ Important Notes
-🔒 sudo ছাড়া কাজ করবে না (Raw Socket দরকার)
+🧠 Working Process--
+📡 ARP Broadcast Packet পাঠানো হয়--
+🌐 Network এর সব IP-তে Request যায়--
+🟢 Active Device Response দেয়--
+📊 Data collect করে Table আকারে দেখানো হয়--
+⚠️ Important Notes--
+🔒 sudo ছাড়া কাজ করবে না (Raw Socket দরকার)--
 ⏱️ Timeout এর কারণে কিছু host miss হতে পারে
 📶 Network condition অনুযায়ী result change হতে পারে
 😴 Sleep mode device detect নাও হতে পারে
