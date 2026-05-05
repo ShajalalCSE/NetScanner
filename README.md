@@ -43,15 +43,22 @@
 
 ### 1️⃣ Virtual Environment তৈরি করুন
 
-```bash
+```
 python3 -m venv myenv
+```
 2️⃣ Activate করুন
+```
 source myenv/bin/activate
+```
 3️⃣ প্রয়োজনীয় প্যাকেজ ইন্সটল করুন
+```
 pip install scapy prettytable mac_vendor_lookup
+```
 🚀 Usage
+```
 source myenv/bin/activate
 sudo /home/kali/myenv/bin/python3 netscanner.py --h 192.168.0.1/24
+```
 🧠 Working Process
 📡 ARP Broadcast Packet পাঠানো হয়
 🌐 Network এর সব IP-তে Request যায়
