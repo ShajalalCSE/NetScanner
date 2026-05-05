@@ -59,32 +59,32 @@ pip install scapy prettytable mac_vendor_lookup
 source myenv/bin/activate
 sudo /home/kali/myenv/bin/python3 netscanner.py --h 192.168.0.1/24
 ```
-🧠 Working Process--
-📡 ARP Broadcast Packet পাঠানো হয়--
-🌐 Network এর সব IP-তে Request যায়--
-🟢 Active Device Response দেয়--
-📊 Data collect করে Table আকারে দেখানো হয়--
-⚠️ Important Notes--
-🔒 sudo ছাড়া কাজ করবে না (Raw Socket দরকার)--
-⏱️ Timeout এর কারণে কিছু host miss হতে পারে
-📶 Network condition অনুযায়ী result change হতে পারে
-😴 Sleep mode device detect নাও হতে পারে
-🧰 Tools Used
-🐍 Scapy → Packet crafting
-📊 PrettyTable → Output formatting
-🏢 MAC Vendor Lookup → Vendor detection
-📌 Future Improvements (Idea 💡)
-⚡ Multi-threading (fast scan)
-📁 Export (CSV / JSON)
-🌍 GUI Version
-⚖️ Disclaimer
+🧠 Working Process<br>
+📡 ARP Broadcast Packet পাঠানো হয়<br>
+🌐 Network এর সব IP-তে Request যায়<br>
+🟢 Active Device Response দেয়<br>
+📊 Data collect করে Table আকারে দেখানো হয়<br>
+⚠️ Important Notes<br>
+🔒 sudo ছাড়া কাজ করবে না (Raw Socket দরকার) <br>
+⏱️ Timeout এর কারণে কিছু host miss হতে পারে <br>
+📶 Network condition অনুযায়ী result change হতে পারে <br>
+😴 Sleep mode device detect নাও হতে পারে <br>
+🧰 Tools Used  <br>
+🐍 Scapy → Packet crafting <br>
+📊 PrettyTable → Output formatting <br>
+🏢 MAC Vendor Lookup → Vendor detection <br>
+📌 Future Improvements (Idea 💡) <br>
+⚡ Multi-threading (fast scan) <br>
+📁 Export (CSV / JSON) <br>
+🌍 GUI Version <br>
+⚖️ Disclaimer <br>
 
-এই টুলটি শুধুমাত্র
-👉 Educational & Ethical Hacking purpose এর জন্য।
+এই টুলটি শুধুমাত্র <br>
+👉 Educational & Ethical Hacking purpose এর জন্য। <br>
 
-অন্য কারো নেটওয়ার্কে অনুমতি ছাড়া ব্যবহার করা আইনত দণ্ডনীয়।
+অন্য কারো নেটওয়ার্কে অনুমতি ছাড়া ব্যবহার করা আইনত দণ্ডনীয়। <br>
 
-👨‍💻 Author
+👨‍💻 Author <br>
 
-SHAJALAL
-Ethical Hacker | Cybersecurity Learner 🚀
+SHAJALAL <br>
+Ethical Hacker | Cybersecurity Learner 🚀 <br>
